@@ -15,11 +15,16 @@
 
 ### Additive information:
 1.) disaster_categories.csv and disaster_messages.csv (dataset).
+
 2.) DisasterResponse.db: created database from transformed and cleaned data.
+
 3.) train_classifier.py: includes the code necessary to load data, transform it using natural language processing, run a machine learning model using GridSearchCV and train it
+
 4.) run.py: Flask app and the user interface used to predict results and display them.
 
 ### Web App:
 1.) Just type in your message in textbox provided.
+
 2.) Click on "Classify Message" button or hit Enter.
+
 3.) The green highleted categories appearing beneath are your class(es) of typed in message.
